@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .glow-green-sm {
+    box-shadow: 0 0 15px -3px rgba(0, 230, 118, 0.25);
+  }
+  .glow-green-active {
+    box-shadow: 0 0 0 1.5px #00e676, 0 0 20px -3px rgba(0, 230, 118, 0.35);
+  }
+  .custom-gradient-card {
+    background: radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.09) 0%, rgba(22, 25, 34, 0.96) 75%);
+  }
+}
+
+/* Custom subtle dark scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0d13;
+}
+::-webkit-scrollbar-thumb {
+  background: #232836;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #343c50;
+}
+

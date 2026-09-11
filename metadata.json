@@ -1,0 +1,6 @@
+{
+  "name": "WayinVideo AI",
+  "description": "Platform Repurpose & Clipping Otomatis bertenaga AI untuk mengekstrak klip viral dari video panjang.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
